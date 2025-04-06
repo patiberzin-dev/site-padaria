@@ -22,14 +22,9 @@ A página está sendo construída com:
 
 ## 📸 Prévia
 
-_Aqui você pode incluir uma imagem do layout atual ou do design no Figma._
-
-![Prévia da Home]
-
 ![Screen Shot 2025-04-06 at 16 00 39](https://github.com/user-attachments/assets/47c59290-ef59-4525-8f64-556f064827f6)
 
 ![Screen Shot 2025-04-06 at 16 00 55](https://github.com/user-attachments/assets/359a846d-f7a0-4796-919c-70ae6d5e3a4f)
-
 
 ---
 
@@ -42,6 +37,4 @@ _Aqui você pode incluir uma imagem do layout atual ou do design no Figma._
 - [ ] Páginas complementares (ex: encomendas, contato, etc.)
 
 ---
-
-## 📂 Estrutura do Repositório
 
