@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html {
+    background-color: #FCF9EE;
+}
+
+.container-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.marca h2 {
+    font-family: "Antonio", sans-serif;
+    font-size: 3em;
+}
+
+.marca h1 {
+    font-family: "Parisienne", cursive;
+    font-size: 6em;
+    color: darkblue;
+}
+
+.cadastro {
+    display: flex;
+    padding: 30px;
+}
+
+.cadastro li a {
+    margin-left: 16px;
+    font-family: "Antonio", sans-serif;
+    font-size: 2em;
+    color: #222222;
+    text-transform: lowercase;
+}
+
+.btn-login {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 10px;
+    background:#153c91;
+    color: #fff !important;
+}
+
+.btn-login:hover {
+    background: rgb(141, 170, 224);
+    color: darkblue !important;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5E1C8;
+    padding: 30px;
+}
+
+.menu li a {
+    margin-left: 16px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    color: #222222;
+}
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner-slides {
+    display: flex;
+    width: 300%; /* 3 slides */
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    position: relative;
+    width: 100vw;
+    flex-shrink: 0;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cite {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    max-width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "Antonio", sans-serif;
+    font-size: 1.8em;
+    color: white;
+    text-align: center;
+}
+
+.slide a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #153C91;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Marca o slide ativo */
+.slide:not(.ativo) {
+    display: none;
+}
+
+/*ICONES*/
+
+.secao-icones {
+    padding: 60px 0;
+}
+
+.container-icones {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.item-icone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.link-icone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+}
+
+.bg-icones {
+    width: 168px;
+    height: 168px;
+    background-color: #F5E1C8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    transition: background 0.3s ease;
+}
+
+.descricao-icones {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+}
+
+.link-icone:hover .bg-icones {
+    background-color: #e7cda9; /* corzinha de hover opcional */
+}
